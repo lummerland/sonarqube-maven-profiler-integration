@@ -1,7 +1,8 @@
 # Maven Profiler Extension Report Integration for SonarQube
 
-Maven profiler extension (https://github.com/jcgay/maven-profiler) creates a nice report files. 
-It would be great to have these file integrated into the SonarQube report to track buildtimes over time.
+Maven profiler extension (https://github.com/jcgay/maven-profiler) creates a nice report file. 
+It would be great to have some data integrated into the SonarQube report to track e.g. buildtimes over time.
+This makes slow builds visible and optimizations as well :)
 
 ## State
 
