@@ -1,5 +1,6 @@
 package org.lummerland.sonarqube.integration.mavenprofiler;
 
+import org.lummerland.sonarqube.integration.mavenprofiler.report.ReportFile;
 import org.sonar.api.Plugin;
 
 /**
@@ -11,7 +12,8 @@ public class ProfilerIntegrationPlugin implements Plugin {
   public void define(final Context context) {
     context.addExtensions(
         ProfilerSensor.class,
-        ProfilerMetrics.class
+        ProfilerMetrics.class,
+        ReportFile.class
     );
   }
 }
