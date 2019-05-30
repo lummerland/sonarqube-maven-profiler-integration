@@ -26,4 +26,6 @@ mvn sonar:sonar
 ```
 
 If everything worked fine you will find a new measure "Buildtime" in the category "Maven-Profiler" 
-in your SonarQube project. The history graph will show you how the build times change over time
+in your SonarQube project. The history graph will show you how the build times change over time:
+
+![Buildtime metric on SonarQube 7](src/main/resources/buildtime-metric-sonarqube-7.7.png)
